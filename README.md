@@ -8,7 +8,7 @@
 
 <div align="center">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dbisu/pico-ducky">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/dbisu/pico-ducky">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/kyro-hacktivist/WIFI-Ducky">
   <a href="https://github.com/dbisu/pico-ducky/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/dbisu/pico-ducky"></a>
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/dbisu/pico-ducky">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dbisu/pico-ducky">
