@@ -42,4 +42,18 @@ To edit the payload, enter setup mode by connecting the pin 1 (`GP0`) to pin 3 (
 
 The easiest way to do so is by using a jumper wire between those pins as seen bellow.
 
-![Setup mode with a jumper](images/setup-mode.png)
+![Setup mode with a jumper](/setup-mode.png)
+
+## USB enable/disable mode
+
+If you need the pico-ducky to not show up as a USB mass storage device for stealth, follow these instructions.  
+- Enter setup mode.    
+- Copy your payload script to the pico-ducky.  
+- Disconnect the pico from your host PC.
+- Connect a jumper wire between pin 18 (`GND`) and pin 20 (`GPIO15`).  
+This will prevent the pico-ducky from showing up as a USB drive when plugged into the target computer.  
+- Remove the jumper and reconnect to your PC to reprogram.
+
+Pico W: The default mode is USB mass storage **disabled**
+
+![USB enable/disable mode](/usb-boot-mode.png)
