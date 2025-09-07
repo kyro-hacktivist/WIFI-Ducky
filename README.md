@@ -18,7 +18,7 @@
 
 ## Quick Start Guide
 Install and have your USB Rubber Ducky working in less than 5 minutes.
-1. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named (`RPI-RP2`).
+1. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named (`RPI-RP2`). Then drop the `flash_nuke.uf2` file to reset it.
    Install CircutlPython on the Pico W.
    Copy the (`adafruit-circuitpython-raspberry_pi_pico_w-en_US-9.2.1.uf2`) file to the root of the Pico (`RPI-RP2`). The device will reboot and after a second or so, it will reconnect as (`CIRCUITPY`).
 
